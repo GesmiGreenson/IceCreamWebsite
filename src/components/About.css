@@ -1,0 +1,44 @@
+.About {
+  background-color: blanchedalmond;
+  padding: 40px 0;
+}
+
+.about-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff8f0;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(216, 90, 62, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+
+.about-container h2 {
+  color: #d85a3e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-container h3 {
+  color: #b2482a;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.about-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about-container ul li {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    padding: 20px;
+  }
+}
